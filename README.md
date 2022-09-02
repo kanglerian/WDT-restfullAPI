@@ -27,9 +27,19 @@ Ini adalah daftar dari users blog. Kita bisa mengedit atau mengakses route lainn
 2. https://guarded-meadow-69994.herokuapp.com/blog
 Ini adalah daftar dari postingan blog.
 
+```bash
+- /blog/:id dengan method GET untuk mencari post per ID
+- /blog/update/:id dengan method PATCH untuk mengupdate informasi post
+- /blog/delete/:id dengan method DELETE untuk menghapus post
+- /blog dengan method POST untuk menambah post
+```
+
 3. https://guarded-meadow-69994.herokuapp.com/signin
 Ini adalah route signin.
+
+```bash
 - /signin dengan method POST digunakan untuk login
+```
 
 4. https://guarded-meadow-69994.herokuapp.com/signup
 Ini adalah route signup.
@@ -53,4 +63,7 @@ Ini adalah route forgot.
 ```
 
 7. https://guarded-meadow-69994.herokuapp.com/
-Halaman awal.
+Halaman awal yang berisikan informasi routes
+
+8. https://guarded-meadow-69994.herokuapp.com/:hari
+Halaman ini mencoba untuk mengecek hari ke berapa? misalnya kamu menulis sabtu, maka akan muncul "sabtu adalah hari ke 6"
