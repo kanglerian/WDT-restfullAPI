@@ -65,5 +65,5 @@ Ini adalah route forgot.
 7. https://guarded-meadow-69994.herokuapp.com/
 Halaman awal yang berisikan informasi routes
 
-8. https://guarded-meadow-69994.herokuapp.com/:hari
+8. https://guarded-meadow-69994.herokuapp.com/cek/:hari
 Halaman ini mencoba untuk mengecek hari ke berapa? misalnya kamu menulis sabtu, maka akan muncul "sabtu adalah hari ke 6"

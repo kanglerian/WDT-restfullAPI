@@ -66,12 +66,20 @@ const routes = [
         path: '/reset'
       }
     ]
-  }, {
+  },{
     name: "forgot",
     path: [
       {
         nama: 'POST',
         path: '/forgot'
+      }
+    ]
+  },{
+    name: "cek hari",
+    path: [
+      {
+        nama: 'Params',
+        path: '/cek/:hari'
       }
     ]
   },
@@ -84,7 +92,7 @@ router.get('/', function (req, res, next) {
   });
 });
 
-router.get('/:day', function (req, res, next) {
+router.get('/cek/:day', function (req, res, next) {
   let hasil;
   switch (req.params.day.toLowerCase()) {
     case "minggu":
